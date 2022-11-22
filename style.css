@@ -1,0 +1,93 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,
+h5,
+h6 {
+      font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+      padding: 10% 15%;
+}
+
+h1 {
+      font-family: 'Fredoka One', cursive;
+      color: #0000ffda;
+      font-size: 3rem;
+      text-align: left;
+      padding-top: 3rem;
+}
+
+h5 {
+      text-align: left;
+      font-size: 1.3rem;
+}
+
+.border {
+      border-radius: 5px;
+}
+
+.form-btn-lg {
+      height: 3rem;
+}
+
+.btn-login {
+      background-color: #1414f8f6;
+      color: #ffffff;
+      border-radius: 5px;
+     
+}
+
+.txt-center {
+      text-align: center;
+      padding: 0.75rem;
+}
+
+.btn-login:hover {
+      background-color: #1414f8ce;
+      cursor: pointer;
+}
+
+.psw-recovery {
+      color: #1414f8ce;
+      text-decoration: none;
+}
+
+.psw-recovery:hover {
+      color: #1414f8;
+      cursor: pointer;
+      
+}
+
+.new-account {
+      display: inline-block;
+      background-color: #1ceb1cf3;
+      color: #ffffff;
+      border-radius: 5px;
+      margin-bottom: 7px;
+}
+
+.new {
+      padding: 10px;
+      font-size: 1rem;
+}
+
+.new-account:hover {
+      background-color: #1ceb1cb1;
+      cursor: pointer;
+}
+.pg-ft {
+      margin-top: 13px;
+}
+
+.page {
+      font-weight: bold;
+}
+
+@media (max-width: 401px) {
+      .new-account {
+                  display: block;
+            }
+}
